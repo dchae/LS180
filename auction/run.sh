@@ -1,0 +1,7 @@
+DATABASE_NAME=auction
+
+dropdb $DATABASE_NAME
+
+createdb $DATABASE_NAME
+
+psql $DATABASE_NAME -f $DATABASE_NAME.sql
