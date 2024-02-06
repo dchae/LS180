@@ -1,4 +1,4 @@
-DATABASE_NAME=auction
+DATABASE_NAME=scratch
 
 dropdb $DATABASE_NAME
 
